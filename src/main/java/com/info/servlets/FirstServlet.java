@@ -28,6 +28,7 @@ public class FirstServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		PrintWriter writer = response.getWriter();
 		writer.println("Hello from First Servlet");
+		writer.println("Hello after update");
 	}
 
 	/**
