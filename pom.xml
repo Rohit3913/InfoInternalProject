@@ -30,11 +30,13 @@
 			<groupId>taglibs</groupId>
 			<artifactId>standard</artifactId>
 			<version>1.1.2</version>
+			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>jstl</groupId>
 			<artifactId>jstl</artifactId>
 			<version>1.2</version>
+			<scope>provided</scope>
 		</dependency>
 
 	</dependencies>
